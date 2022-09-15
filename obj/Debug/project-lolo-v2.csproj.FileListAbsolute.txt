@@ -1,0 +1,11 @@
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\bin\Debug\project-lolo-v2.exe.config
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\bin\Debug\project-lolo-v2.exe
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\bin\Debug\project-lolo-v2.pdb
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\obj\Debug\project-lolo-v2.csproj.AssemblyReference.cache
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\obj\Debug\project-lolo-v2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\obj\Debug\project_lolo_v2.Form1.resources
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\obj\Debug\project_lolo_v2.Properties.Resources.resources
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\obj\Debug\project-lolo-v2.csproj.GenerateResource.cache
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\obj\Debug\project-lolo-v2.csproj.CoreCompileInputs.cache
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\obj\Debug\project-lolo-v2.exe
+C:\Users\Rossini Roberto\source\repos\project-lolo-v2\obj\Debug\project-lolo-v2.pdb

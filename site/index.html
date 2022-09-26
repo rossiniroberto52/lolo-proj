@@ -16,16 +16,18 @@
         body{
             /*display: table-cell;*/
             vertical-align: middle;
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
 <body>
     <h1>Bem vindo</h1>
         <label>
-            <p>V0 = <input type="number" name="v0" placeholder="0" required> (velocidade inicial)</p>
-            <p>S0 = <input type="number" name="s0" placeholder="0" required> (posição inicial)</p>
-            <p>T = <input type="number" name="temp" placeholder="0" required> (Tempo)</p>
-            <p>A = <input type="number" name="acel" placeholder="0" required> (aceleração)</p>
+            <p>V0 = <input type="number" id="v0" placeholder="0" required> (velocidade inicial)</p>
+            <p>S0 = <input type="number" id="s0" placeholder="0" required> (posição inicial)</p>
+            <p>T = <input type="number" id="temp" placeholder="0" required> (Tempo)</p>
+            <p>A = <input type="number" id="acel" placeholder="0" required> (aceleração)</p>
             <p><input type="button" value="calculate" onclick="calc()"></p>
             <p></p>
             <p></p>
@@ -33,14 +35,14 @@
         </label>
 
     <script>
-            v0 = parseFloat(document.getElementsByName("v0"));
-            s0 = parseFloat(document.getElementsByName("s0"));
-            t = parseFloat(document.getElementsByName("temp"));
-            a = parseFloat(document.getElementsByName("acel"));
-            res = 0
+        v0 = document.getElementById("v0")
+        s0 = document.getElementById("s0")
+        t= document.getElementById("temp")
+        a= document.getElementById("acel")
+        res = 0
+
         function calc(){
-            res = (s0 + v0 * t + (a*(t*t)/2))
-            console.log(res)
+            res = s0 + v0 * t + (a * (t * t)/2)
             alert(res)
         }
     </script>

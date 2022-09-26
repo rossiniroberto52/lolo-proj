@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.R.U.V. calculator</title>
+    <style>
+        html, body{
+            height: 100%;
+        }
+        html{
+            display: table;
+            margin: auto;
+        }
+        body{
+            /*display: table-cell;*/
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem vindo</h1>
+        <label>
+            <p>V0 = <input type="number" name="v0" placeholder="0" required> (velocidade inicial)</p>
+            <p>S0 = <input type="number" name="s0" placeholder="0" required> (posição inicial)</p>
+            <p>T = <input type="number" name="temp" placeholder="0" required> (Tempo)</p>
+            <p>A = <input type="number" name="acel" placeholder="0" required> (aceleração)</p>
+            <p><input type="button" value="calculate" onclick="calc()"></p>
+            <p></p>
+            <p></p>
+            resultado = <input type="text" name="result" readonly>
+        </label>
+
+    <script>
+            v0 = parseFloat(document.getElementsByName("v0"));
+            s0 = parseFloat(document.getElementsByName("s0"));
+            t = parseFloat(document.getElementsByName("temp"));
+            a = parseFloat(document.getElementsByName("acel"));
+            res = 0
+        function calc(){
+            res = (s0 + v0 * t + (a*(t*t)/2))
+            console.log(res)
+            alert(res)
+        }
+    </script>
+
+</body>
+</html>
